@@ -21,3 +21,4 @@ wheels/
 *.exe
 *.db
 *.tar
+*.cif
