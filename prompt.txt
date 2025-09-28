@@ -1,0 +1,41 @@
+given datasets:
+(1) `<file_name>`
+example:
+```
+Headings ... ... ...
+data     ... ... ...
+```
+
+(2) `<file_name>`
+example
+```
+Headings ... ... ...
+data     ... ... ...
+```
+
+1st Task:
+- create all the codes according to the researcher paper
+- add all the steps and methods , sampling etc if mentioned in the paper.
+- write codes for
+ - dataset preprocessing
+ - data analyzing
+ - handel messing data
+ - add data sampling and non sampling
+ - model pipeline
+ - model training
+ - model testing
+ - apply different model scoring methods
+ - use cross-validation, k-folds, stratified CV,  etc.
+
+Create an appropriate the python notebook code to:
+ - Verify results in the paper
+ - Identify the flow of the paper with various matrices
+use libraries like: NumPy, pandas, scikit-learn, TensorFlow, etc
+
+Give me in python notebook format with markdown blocks and code blocks well organized.
+
+
+
+
+2nd Task:
+make a comparison table for done in the papers and the task you performed in the code.

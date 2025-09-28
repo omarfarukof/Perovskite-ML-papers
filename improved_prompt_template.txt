@@ -1,0 +1,253 @@
+# COMPREHENSIVE PROMPT TEMPLATE FOR PYTHON NOTEBOOK CODE GENERATION
+# FROM RESEARCH PAPER PDF - AI/ML IMPLEMENTATION
+
+================================================================================
+INSTRUCTIONS: Fill in the sections below with specific details from your research paper.
+Replace all placeholder text (in <>) with actual information from your paper.
+================================================================================
+
+## 1. RESEARCH PAPER INFORMATION
+**Paper Title:** <Insert full paper title>
+**Authors:** <List all authors>
+**Publication Year:** <Year>
+**Journal/Conference:** <Journal or conference name>
+**DOI:** <DOI if available>
+**Key Research Question:** <What is the main research question or objective?>
+
+## 2. DATASET INFORMATION
+**Dataset Name:** <Name of the dataset used>
+**Dataset Source:** <Where was the data obtained from? (e.g., OQMD, Materials Project, etc.)>
+**Number of Samples:** <Total number of data points>
+**Data Collection Method:** <How was the data collected/generated?>
+
+### Dataset Format Specification:
+**File Format:** <CSV, Excel, JSON, etc.>
+**Column Structure:**
+```
+Column_Name_1: <data_type> - <description>
+Column_Name_2: <data_type> - <description>
+...
+Target_Column: <data_type> - <description>
+```
+
+**Example Dataset Preview:**
+```
+<Provide 5-10 rows of actual or representative data>
+```
+
+### Dataset Files:
+(1) `<file_name_1>`
+**Purpose:** <What does this file contain?>
+**Structure:**
+```
+<Show column headers and 2-3 example rows>
+```
+
+(2) `<file_name_2>`
+**Purpose:** <What does this file contain?>
+**Structure:**
+```
+<Show column headers and 2-3 example rows>
+```
+
+## 3. PROBLEM TYPE SPECIFICATION
+**Machine Learning Task:**
+- [ ] Regression (Predict continuous values)
+- [ ] Classification (Predict categories)
+- [ ] Multi-class Classification
+- [ ] Clustering
+- [ ] Other: <specify>
+
+**Target Variable(s):** <What are you trying to predict?>
+**Input Features:** <What features are used for prediction?>
+
+## 4. METHODOLOGY FROM PAPER
+**Data Preprocessing Steps:**
+- [ ] <List specific preprocessing steps mentioned in paper>
+- [ ] <Include any data cleaning procedures>
+- [ ] <Mention any feature engineering techniques>
+
+**Algorithms/Models Used:**
+- [ ] <List specific ML algorithms mentioned>
+- [ ] <Include model architectures if deep learning>
+
+**Evaluation Metrics:**
+- [ ] <List evaluation metrics used in paper>
+- [ ] <Specify train/test split ratios>
+
+**Key Methods:**
+- [ ] <List important methods or techniques>
+- [ ] <Include sampling techniques if mentioned>
+
+## 5. EXPECTED CODE STRUCTURE
+
+### Phase 1: Data Loading and Exploration
+**Required Libraries:**
+- pandas
+- numpy
+- matplotlib
+- seaborn
+- scikit-learn
+- <Add any specific libraries needed>
+
+**Data Loading Requirements:**
+- Load dataset from specified files
+- Handle file encoding if necessary
+- Parse dates if applicable
+- Handle missing values appropriately
+
+**Exploratory Data Analysis:**
+- Dataset shape and info
+- Summary statistics
+- Data distributions
+- Correlation analysis
+- Missing data analysis
+- Outlier detection
+
+### Phase 2: Data Preprocessing
+**Preprocessing Steps:**
+- Handle missing data (<specify methods: drop, fill, interpolate>)
+- Remove duplicates
+- Feature scaling/normalization
+- Encode categorical variables
+- Feature engineering (<specify new features to create>)
+- Handle class imbalance (<if classification>)
+
+**Feature Engineering:**
+- Create new features based on existing ones
+- Polynomial features if needed
+- Interaction features
+- Domain-specific features
+
+### Phase 3: Model Development
+**Model Selection:**
+- Baseline models
+- Advanced models
+- Ensemble methods
+- Deep learning models (if applicable)
+
+**Cross-Validation Strategy:**
+- K-fold CV (<specify k>)
+- Stratified K-fold (<for classification>)
+- Time series split (<if time series>)
+- Train/validation/test split ratios
+
+**Hyperparameter Tuning:**
+- Grid search
+- Random search
+- Bayesian optimization
+- Model-specific parameters to tune
+
+### Phase 4: Model Evaluation
+**Regression Metrics (if applicable):**
+- Mean Absolute Error (MAE)
+- Mean Squared Error (MSE)
+- Root Mean Squared Error (RMSE)
+- R-squared (R²)
+- Mean Absolute Percentage Error (MAPE)
+
+**Classification Metrics (if applicable):**
+- Accuracy
+- Precision
+- Recall
+- F1-Score
+- ROC-AUC
+- Confusion Matrix
+- Classification Report
+
+**Model Comparison:**
+- Compare all models on test set
+- Statistical significance testing
+- Learning curves
+- Feature importance analysis
+
+### Phase 5: Results Verification
+**Paper Results Replication:**
+- Reproduce figures from paper
+- Compare metrics with reported values
+- Identify any discrepancies
+- Sensitivity analysis
+
+**Additional Analysis:**
+- Error analysis
+- Model interpretation
+- Feature importance
+- Cross-validation results visualization
+
+## 6. VISUALIZATION REQUIREMENTS
+**Required Plots:**
+- [ ] Data distribution plots
+- [ ] Correlation heatmap
+- [ ] Feature importance plots
+- [ ] Model performance comparisons
+- [ ] Learning curves
+- [ ] Prediction vs actual plots
+- [ ] Confusion matrix (classification)
+- [ ] ROC curves (classification)
+- [ ] Residual plots (regression)
+
+## 7. REPRODUCIBILITY REQUIREMENTS
+**Random Seeds:** <Specify seeds for reproducible results>
+**Version Requirements:**
+- Python version: <specify>
+- Library versions: <list key libraries with versions>
+**Hardware Requirements:** <Any specific hardware mentioned>
+
+## 8. EXPECTED OUTPUTS
+**Code Outputs:**
+- [ ] Complete Jupyter notebook (.ipynb)
+- [ ] Saved trained models
+- [ ] Performance reports
+- [ ] Visualization files
+- [ ] Requirements.txt
+
+**Analysis Outputs:**
+- [ ] Model performance summary
+- [ ] Feature importance rankings
+- [ ] Comparison with paper results
+- [ ] Recommendations for improvements
+
+## 9. SPECIFIC INSTRUCTIONS
+**Paper-Specific Requirements:**
+<Any specific instructions unique to this paper>
+
+**Domain-Specific Considerations:**
+<Any domain-specific requirements or constraints>
+
+**Performance Benchmarks:**
+<Expected performance metrics to achieve>
+
+## 10. COMPARISON TABLE FORMAT
+**Required Comparison Table Structure:**
+
+| Aspect | Paper Results | Reproduced Results | Difference | Notes |
+|--------|---------------|-------------------|------------|-------|
+| Dataset Size | <size> | <size> | <diff> | <notes> |
+| Model Performance (Metric 1) | <value> | <value> | <diff> | <notes> |
+| Model Performance (Metric 2) | <value> | <value> | <diff> | <notes> |
+| Key Findings | <finding> | <finding> | <comparison> | <notes> |
+
+## 11. ADDITIONAL NOTES
+**Challenges Anticipated:**
+<List any expected challenges>
+
+**Special Considerations:**
+<Any special considerations for this specific paper>
+
+**Success Criteria:**
+<How to determine if the reproduction was successful>
+
+================================================================================
+END OF TEMPLATE
+
+INSTRUCTIONS FOR USE:
+1. Fill in ALL sections above with specific details from your research paper
+2. Be as specific as possible - avoid generic descriptions
+3. Include actual data examples when possible
+4. Specify exact column names and data types
+5. List all algorithms and parameters mentioned in the paper
+6. Include specific evaluation metrics used
+7. Provide context about the research domain and goals
+
+This detailed template will help generate accurate, complete, and reproducible code.
+================================================================================
