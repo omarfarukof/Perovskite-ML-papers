@@ -35,11 +35,6 @@
       "perov_form": 0.9043189368770765,
       "perov_stab": 0.9086218296592936
     },
-    "ICost": {
-      "abc3_oqmd_cs": 0.678763514077053,
-      "perov_form": 0.8677740863787375,
-      "perov_stab": 0.8440510498147384
-    },
     "DD_Hybrid": {
       "abc3_oqmd_cs": NaN,
       "perov_form": 0.9169435215946844,
@@ -81,11 +76,6 @@
       "abc3_oqmd_cs": 0.8207714484610562,
       "perov_form": 0.8559168165962582,
       "perov_stab": 0.909090353016399
-    },
-    "ICost": {
-      "abc3_oqmd_cs": 0.38551315855664015,
-      "perov_form": 0.8499241343493887,
-      "perov_stab": 0.841169203781081
     },
     "DD_Hybrid": {
       "abc3_oqmd_cs": NaN,
@@ -129,11 +119,6 @@
       "perov_form": 0.86113159134962,
       "perov_stab": 0.9157231119192609
     },
-    "ICost": {
-      "abc3_oqmd_cs": 0.3863666880886655,
-      "perov_form": 0.7262878912113369,
-      "perov_stab": 0.843239762400386
-    },
     "DD_Hybrid": {
       "abc3_oqmd_cs": NaN,
       "perov_form": 0.8588072412509309,
@@ -175,11 +160,6 @@
       "abc3_oqmd_cs": 0.7824993350230611,
       "perov_form": 0.8579153612998696,
       "perov_stab": 0.9082842233446098
-    },
-    "ICost": {
-      "abc3_oqmd_cs": 0.36760869812860897,
-      "perov_form": 0.7624617562610976,
-      "perov_stab": 0.8420076764661963
     },
     "DD_Hybrid": {
       "abc3_oqmd_cs": NaN,
@@ -223,11 +203,6 @@
       "perov_form": 0.9059202675005249,
       "perov_stab": 0.9174794075503883
     },
-    "ICost": {
-      "abc3_oqmd_cs": 0.6164140299988634,
-      "perov_form": 0.8644956442370159,
-      "perov_stab": 0.8449074615501274
-    },
     "DD_Hybrid": {
       "abc3_oqmd_cs": NaN,
       "perov_form": 0.9157161194698308,
@@ -269,11 +244,6 @@
       "abc3_oqmd_cs": 0.8534355209350423,
       "perov_form": 0.9043189368770765,
       "perov_stab": 0.9086218296592936
-    },
-    "ICost": {
-      "abc3_oqmd_cs": 0.678763514077053,
-      "perov_form": 0.8677740863787375,
-      "perov_stab": 0.8440510498147384
     },
     "DD_Hybrid": {
       "abc3_oqmd_cs": NaN,
@@ -317,11 +287,6 @@
       "perov_form": 0.9048019497017702,
       "perov_stab": 0.908987131857781
     },
-    "ICost": {
-      "abc3_oqmd_cs": 0.6341226593327614,
-      "perov_form": 0.8537594738961014,
-      "perov_stab": 0.8442872973998075
-    },
     "DD_Hybrid": {
       "abc3_oqmd_cs": NaN,
       "perov_form": 0.9154290733369038,
@@ -363,11 +328,6 @@
       "abc3_oqmd_cs": 0.8117951071895716,
       "perov_form": 0.716785158336352,
       "perov_stab": 0.8247867808063682
-    },
-    "ICost": {
-      "abc3_oqmd_cs": 0.5759972876731532,
-      "perov_form": 0.5615075763553246,
-      "perov_stab": 0.6844052543118264
     },
     "DD_Hybrid": {
       "abc3_oqmd_cs": NaN,
